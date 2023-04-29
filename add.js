@@ -39,7 +39,8 @@ abtn1.addEventListener("click", function () {
 abtn2.addEventListener("click", function () {
   if (tg.MainButton.isVisible) {
     tg.MainButton.hide();
-  } else {
+  } 
+  else {
     tg.MainButton.setText("Оплатить товар 2!");
     item = "2";
     tg.MainButton.show();
@@ -48,7 +49,8 @@ abtn2.addEventListener("click", function () {
 abtn3.addEventListener("click", function () {
   if (tg.MainButton.isVisible) {
     tg.MainButton.hide();
-  } else {
+  } 
+  else {
     tg.MainButton.setText("Оплатить товар 3!");
     item = "3";
     tg.MainButton.show();
@@ -57,7 +59,8 @@ abtn3.addEventListener("click", function () {
 abtn4.addEventListener("click", function () {
   if (tg.MainButton.isVisible) {
     tg.MainButton.hide();
-  } else {
+  } 
+  else {
     tg.MainButton.setText("Оплатить товар 4!");
     item = "4";
     tg.MainButton.show();
@@ -66,7 +69,8 @@ abtn4.addEventListener("click", function () {
 abtn5.addEventListener("click", function () {
   if (tg.MainButton.isVisible) {
     tg.MainButton.hide();
-  } else {
+  } 
+  else {
     tg.MainButton.setText("Оплатить товар 5!");
     item = "5";
     tg.MainButton.show();
@@ -75,7 +79,8 @@ abtn5.addEventListener("click", function () {
 abtn6.addEventListener("click", function () {
   if (tg.MainButton.isVisible) {
     tg.MainButton.hide();
-  } else {
+  } 
+  else {
     tg.MainButton.setText("Оплатить товар 6!");
     item = "6";
     tg.MainButton.show();
@@ -137,7 +142,7 @@ abtn6.addEventListener("click", function () {
 //   }
 // });
 
-Telegram.WebApp.onEvent("mainBottonClicked", function () {
+Telegram.WebApp.onEvent("mainButtonClicked", function () {
   tg.sendData(item);
 });
 
