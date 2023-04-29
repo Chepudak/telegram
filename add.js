@@ -7,19 +7,19 @@ tg.MainButton.color = "2cab37";
 
 let item = "";
 
-let abtn1 = document.getElementsByClassName("add");
-let abtn2 = document.getElementsByClassName("add");
-let abtn3 = document.getElementsByClassName("add");
-let abtn4 = document.getElementsByClassName("add");
-let abtn5 = document.getElementsByClassName("add");
-let abtn6 = document.getElementsByClassName("add");
+let abtn1 = document.getElementsById("btn1");
+let abtn2 = document.getElementsById("btn2");
+let abtn3 = document.getElementsById("btn3");
+let abtn4 = document.getElementsById("btn4");
+let abtn5 = document.getElementsById("btn5");
+let abtn6 = document.getElementsById("btn6");
 
-let rbtn1 = document.getElementsByClassName("remove");
-let rbtn2 = document.getElementsByClassName("remove");
-let rbtn3 = document.getElementsByClassName("remove");
-let rbtn4 = document.getElementsByClassName("remove");
-let rbtn5 = document.getElementsByClassName("remove");
-let rbtn6 = document.getElementsByClassName("remove");
+// let rbtn1 = document.getElementsByClassName("remove");
+// let rbtn2 = document.getElementsByClassName("remove");
+// let rbtn3 = document.getElementsByClassName("remove");
+// let rbtn4 = document.getElementsByClassName("remove");
+// let rbtn5 = document.getElementsByClassName("remove");
+// let rbtn6 = document.getElementsByClassName("remove");
 // let btn1 = document.getElementById("btn1");
 // let btn2 = document.getElementById("btn2");
 // let btn3 = document.getElementById("btn3");
@@ -82,60 +82,60 @@ abtn6.addEventListener("click", function () {
   }
 });
 
-rbtn1.addEventListener("click", function () {
-  if (tg.MainButton.isVisible) {
-    tg.MainButton.hide();
-  } else {
-    tg.MainButton.setText("Вы убрали товар 1!");
-    item = "";
-    tg.MainButton.show();
-  }
-});
-rbtn2.addEventListener("click", function () {
-  if (tg.MainButton.isVisible) {
-    tg.MainButton.hide();
-  } else {
-    tg.MainButton.setText("Вы убрали товар 2!");
-    item = "";
-    tg.MainButton.show();
-  }
-});
-rbtn3.addEventListener("click", function () {
-  if (tg.MainButton.isVisible) {
-    tg.MainButton.hide();
-  } else {
-    tg.MainButton.setText("Вы убрали товар 3!");
-    item = "";
-    tg.MainButton.show();
-  }
-});
-rbtn4.addEventListener("click", function () {
-  if (tg.MainButton.isVisible) {
-    tg.MainButton.hide();
-  } else {
-    tg.MainButton.setText("Вы  убрали товар 4!");
-    item = "";
-    tg.MainButton.show();
-  }
-});
-rbtn5.addEventListener("click", function () {
-  if (tg.MainButton.isVisible) {
-    tg.MainButton.hide();
-  } else {
-    tg.MainButton.setText("Вы убрали товар 5!");
-    item = "";
-    tg.MainButton.show();
-  }
-});
-rbtn6.addEventListener("click", function () {
-  if (tg.MainButton.isVisible) {
-    tg.MainButton.hide();
-  } else {
-    tg.MainButton.setText("Вы убрали товар 6!");
-    item = "";
-    tg.MainButton.show();
-  }
-});
+// rbtn1.addEventListener("click", function () {
+//   if (tg.MainButton.isVisible) {
+//     tg.MainButton.hide();
+//   } else {
+//     tg.MainButton.setText("Вы убрали товар 1!");
+//     item = "";
+//     tg.MainButton.show();
+//   }
+// });
+// rbtn2.addEventListener("click", function () {
+//   if (tg.MainButton.isVisible) {
+//     tg.MainButton.hide();
+//   } else {
+//     tg.MainButton.setText("Вы убрали товар 2!");
+//     item = "";
+//     tg.MainButton.show();
+//   }
+// });
+// rbtn3.addEventListener("click", function () {
+//   if (tg.MainButton.isVisible) {
+//     tg.MainButton.hide();
+//   } else {
+//     tg.MainButton.setText("Вы убрали товар 3!");
+//     item = "";
+//     tg.MainButton.show();
+//   }
+// });
+// rbtn4.addEventListener("click", function () {
+//   if (tg.MainButton.isVisible) {
+//     tg.MainButton.hide();
+//   } else {
+//     tg.MainButton.setText("Вы  убрали товар 4!");
+//     item = "";
+//     tg.MainButton.show();
+//   }
+// });
+// rbtn5.addEventListener("click", function () {
+//   if (tg.MainButton.isVisible) {
+//     tg.MainButton.hide();
+//   } else {
+//     tg.MainButton.setText("Вы убрали товар 5!");
+//     item = "";
+//     tg.MainButton.show();
+//   }
+// });
+// rbtn6.addEventListener("click", function () {
+//   if (tg.MainButton.isVisible) {
+//     tg.MainButton.hide();
+//   } else {
+//     tg.MainButton.setText("Вы убрали товар 6!");
+//     item = "";
+//     tg.MainButton.show();
+//   }
+// });
 
 Telegram.WebApp.onEvent("mainBottonClicked", function () {
   tg.sendData(item);
