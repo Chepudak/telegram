@@ -32,7 +32,7 @@ abtn1.addEventListener("click", function () {
     tg.MainButton.hide();
   } else {
     tg.MainButton.setText("Оплатить товар 1!");
-    item = "";
+    item = "1";
     tg.MainButton.show();
   }
 });
@@ -41,7 +41,7 @@ abtn2.addEventListener("click", function () {
     tg.MainButton.hide();
   } else {
     tg.MainButton.setText("Оплатить товар 2!");
-    item = "";
+    item = "2";
     tg.MainButton.show();
   }
 });
@@ -50,7 +50,7 @@ abtn3.addEventListener("click", function () {
     tg.MainButton.hide();
   } else {
     tg.MainButton.setText("Оплатить товар 3!");
-    item = "";
+    item = "3";
     tg.MainButton.show();
   }
 });
@@ -59,7 +59,7 @@ abtn4.addEventListener("click", function () {
     tg.MainButton.hide();
   } else {
     tg.MainButton.setText("Оплатить товар 4!");
-    item = "";
+    item = "4";
     tg.MainButton.show();
   }
 });
@@ -68,7 +68,7 @@ abtn5.addEventListener("click", function () {
     tg.MainButton.hide();
   } else {
     tg.MainButton.setText("Оплатить товар 5!");
-    item = "";
+    item = "5";
     tg.MainButton.show();
   }
 });
@@ -77,7 +77,7 @@ abtn6.addEventListener("click", function () {
     tg.MainButton.hide();
   } else {
     tg.MainButton.setText("Оплатить товар 6!");
-    item = "";
+    item = "6";
     tg.MainButton.show();
   }
 });
