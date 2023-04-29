@@ -7,12 +7,12 @@ tg.MainButton.color = "2cab37";
 
 let item = "";
 
-let abtn1 = document.getElementsById("btn1");
-let abtn2 = document.getElementsById("btn2");
-let abtn3 = document.getElementsById("btn3");
-let abtn4 = document.getElementsById("btn4");
-let abtn5 = document.getElementsById("btn5");
-let abtn6 = document.getElementsById("btn6");
+let btn1 = document.getElementsById("btn1");
+let btn2 = document.getElementsById("btn2");
+let btn3 = document.getElementsById("btn3");
+let btn4 = document.getElementsById("btn4");
+let btn5 = document.getElementsById("btn5");
+let btn6 = document.getElementsById("btn6");
 
 // let rbtn1 = document.getElementsByClassName("remove");
 // let rbtn2 = document.getElementsByClassName("remove");
@@ -27,7 +27,7 @@ let abtn6 = document.getElementsById("btn6");
 // let btn5 = document.getElementById("btn5");
 // let btn6 = document.getElementById("btn6");
 
-abtn1.addEventListener("click", function () {
+btn1.addEventListener("click", function () {
   if (tg.MainButton.isVisible) {
     tg.MainButton.hide();
   } else {
@@ -36,7 +36,7 @@ abtn1.addEventListener("click", function () {
     tg.MainButton.show();
   }
 });
-abtn2.addEventListener("click", function () {
+btn2.addEventListener("click", function () {
   if (tg.MainButton.isVisible) {
     tg.MainButton.hide();
   } 
@@ -46,7 +46,7 @@ abtn2.addEventListener("click", function () {
     tg.MainButton.show();
   }
 });
-abtn3.addEventListener("click", function () {
+btn3.addEventListener("click", function () {
   if (tg.MainButton.isVisible) {
     tg.MainButton.hide();
   } 
@@ -56,7 +56,7 @@ abtn3.addEventListener("click", function () {
     tg.MainButton.show();
   }
 });
-abtn4.addEventListener("click", function () {
+btn4.addEventListener("click", function () {
   if (tg.MainButton.isVisible) {
     tg.MainButton.hide();
   } 
@@ -66,7 +66,7 @@ abtn4.addEventListener("click", function () {
     tg.MainButton.show();
   }
 });
-abtn5.addEventListener("click", function () {
+btn5.addEventListener("click", function () {
   if (tg.MainButton.isVisible) {
     tg.MainButton.hide();
   } 
@@ -76,7 +76,7 @@ abtn5.addEventListener("click", function () {
     tg.MainButton.show();
   }
 });
-abtn6.addEventListener("click", function () {
+btn6.addEventListener("click", function () {
   if (tg.MainButton.isVisible) {
     tg.MainButton.hide();
   } 
